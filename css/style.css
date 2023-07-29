@@ -67,13 +67,13 @@ section:nth-child(even) {
   padding: 1.2rem 3rem;
   cursor: pointer;
   color: #fff;
-  background: #0a94da;
+  background: #1b90f7;;
   font-size: 1.7rem;
   border-radius: 20px;
 }
 
 .btn:hover {
-  background: #000;
+  transform: translateY(-1rem);
 }
 
 .btn-2 {
@@ -88,7 +88,8 @@ section:nth-child(even) {
 
 .btn-2:hover {
   color: #fff;
-  background-color: #0a94da;
+  background: #1b90f7;
+  transform: translateY(-1rem);
 }
 
 .header {
@@ -153,7 +154,8 @@ section:nth-child(even) {
 
 .header .share a:hover {
   color: #fff;
-  background: #000;
+  background: linear-gradient(-45deg, #fffde4, #1b90f7);
+  transform: translateY(-1rem);
 }
 
 .header .credit {
@@ -259,6 +261,11 @@ section:nth-child(even) {
   gap: 2rem;
 }
 
+.info-container .box:hover {
+  background: linear-gradient(45deg, #fffde4, #1b90f7);
+  transform: translateY(-1rem);
+}
+
 .info-container .box {
   padding: 3rem;
   background: #fff;
@@ -297,6 +304,11 @@ section:nth-child(even) {
   padding: 3rem 2rem;
   border-radius: 20px;
   border: 0.1rem solid #999;
+}
+
+.category .box-container .box:hover {
+  background: linear-gradient(45deg, #fffde4, #1b90f7);
+  transform: translateY(-1rem);
 }
 
 .category .box-container .box:hover img {
@@ -352,7 +364,7 @@ section:nth-child(even) {
 .about .content {
   width: 45rem;
 }
-.about .text{
+.about .text {
   border: #000 solid 1px;
   padding: 8px;
   border-radius: 20px;
@@ -365,13 +377,13 @@ section:nth-child(even) {
   color: #000;
 }
 
-.about .content h3{
+.about .content h3 {
   padding-top: 2rem;
   font-size: 2.4rem;
   color: #263238;
 }
 
-.about .content h1{
+.about .content h1 {
   font-size: 30px;
 }
 
@@ -388,13 +400,13 @@ section:nth-child(even) {
   color: #000;
 }
 
-.about .text h3{
+.about .text h3 {
   padding-top: 2rem;
   font-size: 2.4rem;
   color: #263238;
 }
 
-.about .text h1{
+.about .text h1 {
   font-size: 30px;
 }
 
@@ -531,16 +543,16 @@ section:nth-child(even) {
   line-height: 2;
 }
 
-.contact .row .contact-info-container .box p:hover{
+.contact .row .contact-info-container .box p:hover {
   cursor: pointer;
   color: #000;
 }
 
-.contact .row .contact-info-container .box p a{
+.contact .row .contact-info-container .box p a {
   text-decoration: none;
   color: #777;
 }
-.contact .row .contact-info-container .box p a:hover{
+.contact .row .contact-info-container .box p a:hover {
   color: #000;
   cursor: pointer;
 }
@@ -556,14 +568,15 @@ section:nth-child(even) {
   line-height: 5rem;
   font-size: 2rem;
   border-radius: 25px;
-  background: #96deff;
+  background: #000;
   color: #0068de;
   text-align: center;
 }
 
 .contact .row .contact-info-container .share a:hover {
-  background: #ffffff;
   color: black;
+  background: linear-gradient(-45deg, #fffde4, #1b90f7);
+  transform: translateY(-1rem);
 }
 
 .contact .row form {
@@ -622,6 +635,10 @@ section:nth-child(even) {
   border: 0.1rem solid #999;
 }
 
+.reviews .box-container .box:hover {
+  background: linear-gradient(45deg, #fffde4, #1b90f7);
+  transform: translateY(-1rem);
+}
 .reviews .box-container .box img {
   height: 10rem;
   width: 10rem;
@@ -734,6 +751,9 @@ section:nth-child(even) {
   #menu-btn {
     display: block;
   }
+  #menu-btn:hover{
+    transform: translateY(-1rem);
+  }
   .header {
     left: -110%;
     line-height: 25px;
@@ -766,7 +786,7 @@ section:nth-child(even) {
     border-radius: 25px;
   }
 
-  .contact .row form textarea{
+  .contact .row form textarea {
     width: 100%;
     border-radius: 25px;
   }
