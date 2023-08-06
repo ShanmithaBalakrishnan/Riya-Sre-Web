@@ -67,7 +67,7 @@ section:nth-child(even) {
   padding: 1.2rem 3rem;
   cursor: pointer;
   color: #fff;
-  background: #1b90f7;;
+  background: #1b90f7;
   font-size: 1.7rem;
   border-radius: 20px;
 }
@@ -223,7 +223,7 @@ section:nth-child(even) {
   width: 100%;
 }
 
-.home .image img:hover{
+.home .image img:hover {
   transform: translateY(-1rem);
 }
 
@@ -266,7 +266,6 @@ section:nth-child(even) {
 }
 
 .info-container .box:hover {
-  background: linear-gradient(45deg, #fffde4, #1b90f7);
   transform: translateY(-1rem);
 }
 
@@ -311,7 +310,6 @@ section:nth-child(even) {
 }
 
 .category .box-container .box:hover {
-  background: linear-gradient(45deg, #fffde4, #1b90f7);
   transform: translateY(-1rem);
 }
 
@@ -365,7 +363,7 @@ section:nth-child(even) {
   width: 100%;
 }
 
-.about .image img:hover{
+.about .image img:hover {
   transform: translateY(-1rem);
 }
 .about .content {
@@ -423,7 +421,6 @@ section:nth-child(even) {
   font-size: 15px;
   color: #777;
 }
-
 
 .contact .row {
   display: -webkit-box;
@@ -546,11 +543,11 @@ section:nth-child(even) {
   border-radius: 25px;
 }
 
-form .inputBox input:hover{
+form .inputBox input:hover {
   transform: translateY(-1rem);
 }
 
-form textarea:hover{
+form textarea:hover {
   transform: translateY(-1rem);
 }
 
@@ -571,9 +568,9 @@ form textarea:hover{
 }
 
 .reviews .box-container .box:hover {
-  background: linear-gradient(45deg, #fffde4, #1b90f7);
   transform: translateY(-1rem);
 }
+
 .reviews .box-container .box img {
   height: 10rem;
   width: 10rem;
@@ -686,7 +683,7 @@ form textarea:hover{
   #menu-btn {
     display: block;
   }
-  #menu-btn:hover{
+  #menu-btn:hover {
     transform: translateY(-1rem);
   }
   .header {
@@ -726,4 +723,3 @@ form textarea:hover{
     border-radius: 25px;
   }
 }
-/*# sourceMappingURL=style.css.map */
