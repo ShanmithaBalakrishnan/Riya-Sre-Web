@@ -74,6 +74,7 @@ section:nth-child(even) {
 
 .btn:hover {
   transform: translateY(-1rem);
+  transition: all 300ms ease;
 }
 
 .btn-2 {
@@ -90,6 +91,7 @@ section:nth-child(even) {
   color: #fff;
   background: #1b90f7;
   transform: translateY(-1rem);
+  transition: all 300ms ease;
 }
 
 .header {
@@ -226,10 +228,6 @@ section:nth-child(even) {
 
 .home .image img {
   width: 100%;
-}
-
-.home .image img:hover {
-  transform: translateY(-1rem);
 }
 
 .d-block{
@@ -373,9 +371,6 @@ section:nth-child(even) {
   width: 100%;
 }
 
-.about .image img:hover {
-  transform: translateY(-1rem);
-}
 .about .content {
   width: 45rem;
 }
