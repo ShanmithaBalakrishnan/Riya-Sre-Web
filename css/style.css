@@ -159,7 +159,25 @@ section:nth-child(even) {
   margin: 0 0.1rem;
 }
 
+.header .share a img{
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 25px;
+  line-height: 4.5rem;
+  font-size: 1.8rem;
+  background: #fff;
+  color: #0068de;
+  margin: 0 0.1rem;
+}
 .header .share a:hover {
+  color: #fff;
+  background: linear-gradient(-45deg, #fffde4, #1b90f7);
+  transform: translateY(-1rem);
+}
+.header .share a img:hover {
   color: #fff;
   background: linear-gradient(-45deg, #fffde4, #1b90f7);
   transform: translateY(-1rem);
